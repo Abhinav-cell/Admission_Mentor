@@ -1,0 +1,125 @@
+body{
+ 
+  background-color:black;
+  background-repeat:no-repeat ;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: lighten;
+}
+#place_name1{
+  color: #f1f1f1;
+}
+#place_name2{
+  color: #f1f1f1;
+}
+#place_name3{
+  color: #f1f1f1;
+}
+#place_name4{
+  color: #f1f1f1;
+}
+.topnav-right{
+    float: right;
+}
+#quotes{
+    color:white;
+    text-align:center ;
+}
+.topnav button:hover{
+    
+  opacity: 0.1;
+}
+.topnav button{
+    background-color: #04AA6D;
+    color: rgb(60, 10, 243);
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .center img{
+
+      display:block;
+      width: 100%;
+      float: center;
+  }
+  .center img:hover{
+        opacity: 0.8;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    border-radius: 60%;
+    text-decoration: none;
+  }
+  .fa:hover {
+    opacity: 0.3;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram {
+    background: #f8057f;
+    color: white;
+  }
+  #emojis{
+    text-align: center;
+  }
+  .dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd}
+  
+  .show {display:block;}
+
+  .column {
+    float: right;
+    width: 40.33%;
+    padding: 5px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
